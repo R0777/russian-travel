@@ -1,0 +1,11 @@
+.place__paragraph-first {
+  margin: 0;
+  width: 100%
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-first {
+    box-sizing: border-box;
+    padding: 0 16px
+  }
+}

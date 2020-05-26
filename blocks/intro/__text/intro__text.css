@@ -1,0 +1,28 @@
+@import url(../../../vendor/fonts/font-inter.css);
+
+.intro__text {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Inter;
+  box-sizing: border-box;
+  padding-top: 40px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__text {
+    min-width: 690px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    min-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    min-width: 288px;
+  }
+}

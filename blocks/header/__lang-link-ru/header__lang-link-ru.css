@@ -1,0 +1,30 @@
+@import url(../../../vendor/fonts/font-inter.css);
+
+.header__lang-link-ru {
+  width: 30px;
+  height: 28px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  border-bottom: 2px solid #fff;
+  box-sizing: border-box;
+  margin-left: auto;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.header__lang-link-ru:hover {
+  opacity: .8;
+  transition: opacity 1s ease-out;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link-ru {
+    font-size: 18px;
+    line-height: 24px;
+    width: 22px;
+    height: 24px
+  }
+}

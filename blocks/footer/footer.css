@@ -1,0 +1,31 @@
+@import url(../../vendor/fonts/font-inter.css);
+@import url(./__links/footer__links.css);
+@import url(./__link/footer__link.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 92px 48px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background: #2A2C2F;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    flex-direction: column;
+    padding: 64px 0px 24px 16px;
+    width: 186px;
+    margin: 0;
+  }
+}

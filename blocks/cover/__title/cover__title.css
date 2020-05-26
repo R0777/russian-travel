@@ -1,0 +1,26 @@
+@import url(../../../vendor/fonts/font-inter-black.css);
+
+.cover__title {
+  font-family: InterB;
+  font-size: 72px;
+  line-height: 76px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    width: 288px;
+    height: 70px
+  }
+}
