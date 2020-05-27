@@ -2,7 +2,6 @@
 
 .header__lang-link-ru {
   width: 30px;
-  height: 28px;
   display: inline-block;
   cursor: pointer;
   font-family: Inter, Arial, sans-serif;
@@ -25,6 +24,5 @@
     font-size: 18px;
     line-height: 24px;
     width: 22px;
-    height: 24px
   }
 }

@@ -1,7 +1,7 @@
 @import url(../../../vendor/fonts/font-inter-black.css);
 
 .cover__title {
-  font-family: InterB;
+  font-family: InterB, Arial, sans-serif;
   font-size: 72px;
   line-height: 76px;
   width: 100%;

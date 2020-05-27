@@ -1,9 +1,11 @@
 @import url(../../../vendor/fonts/font-inter.css);
 
 .place__paragraph {
+  margin: 0;
+  width: 100%;
   font-size: 18px;
   line-height: 30px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   color: #fff;
 }
 
@@ -23,5 +25,12 @@
 @media screen and (max-width: 767px) {
   .place__paragraph {
     max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    box-sizing: border-box;
+    padding: 0 16px
   }
 }

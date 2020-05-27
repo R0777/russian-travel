@@ -3,7 +3,7 @@
 .place__title {
   font-size: 72px;
   line-height: 76px;
-  font-family: InterB;
+  font-family: InterB, Arial, sans-serif;
   color: #fff;
   box-sizing: border-box;
   margin: 0;
