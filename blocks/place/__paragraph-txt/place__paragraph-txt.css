@@ -1,0 +1,7 @@
+.place__paragraph-txt {
+  margin: 0 auto 24px;
+}
+
+.place__paragraph-txt:nth-child(2) {
+  margin: 0
+}

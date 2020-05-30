@@ -1,9 +1,9 @@
 .photo-grid__item {
-  width: 100%;
-  max-width: 100%;
+ max-width: 100%;
+ width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .photo-grid__item {
   min-height: 264px
   }
@@ -19,4 +19,4 @@
   .photo-grid__item {
   min-height: 216px;
   }
-}
+} */

@@ -1,24 +1,21 @@
-.header__lang-link-ru {
-  width: 30px;
+.header__lang-link {
+  width: 29px;
   display: inline-block;
   cursor: pointer;
   font-family: Inter, Arial, sans-serif;
   font-size: 24px;
   line-height: 28px;
-  border-bottom: 2px solid #fff;
-  box-sizing: border-box;
-  margin-left: auto;
   opacity: 1;
   transition: opacity 1s ease-out;
 }
 
-.header__lang-link-ru:hover {
+.header__lang-link:hover {
   opacity: .8;
   transition: opacity 1s ease-out;
 }
 
 @media screen and (max-width: 767px) {
-  .header__lang-link-ru {
+  .header__lang-link {
     font-size: 18px;
     line-height: 24px;
     width: 22px;
